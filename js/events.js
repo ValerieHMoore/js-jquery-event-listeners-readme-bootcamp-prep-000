@@ -16,6 +16,7 @@ function pressIt() {
       alert('"You have pressed the G key"');
     }
 });
+}
 
 $(document).ready(function(){
 getIt()
