@@ -11,11 +11,8 @@ function frameIt() {
 }
 
 function pressIt() {
-    $('#typing')on.('keydown',function(){
-   if($'#typing:first').val() === 71){
+    
      alert("You have pressed the G key");
-  return;
-  }
 });
 
 $(document).ready(function(){
