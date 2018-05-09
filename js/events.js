@@ -6,7 +6,7 @@ alert("Hey!")
 
 function frameIt() {
  $('img').on('load',function(){
- document.getElementById('img').classList.add('tasty');
+ 
  });
 }
 
