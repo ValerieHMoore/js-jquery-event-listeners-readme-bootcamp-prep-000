@@ -5,8 +5,8 @@ alert("Hey!")
 }
 
 function frameIt() {
- $('.tasty').on('load',function(){
- img.style.border='2px solid #E8272C'
+ $('img').on('load',function(){
+ 
  });
 }
 
