@@ -5,7 +5,7 @@ alert("Hey!")
 }
 
 $(document).ready(function(){
-
+getIt()
 
 }
 )
