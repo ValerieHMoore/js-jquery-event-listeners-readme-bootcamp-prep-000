@@ -11,10 +11,11 @@ function frameIt() {
 }
 
 function pressIt() {
-    if(keydown === 71)
+    if(keydown === 71){
     $('#input')on.('keydown',function(){
    alert("You have pressed the G key");
  });
+}
 }
 
 $(document).ready(function(){
