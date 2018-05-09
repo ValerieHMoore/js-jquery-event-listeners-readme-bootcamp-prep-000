@@ -3,11 +3,7 @@
 $(document).ready(function(){
 
 function getIt() {
-  $('p').on("click", function(){
+  $('p').on('click', getIt(){
   alert("Hey!");
 });
 }
-}
-$("p").click(function(){
-    alert("The paragraph was clicked.");
-});
