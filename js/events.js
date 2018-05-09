@@ -11,7 +11,7 @@ function frameIt() {
 }
 
 function pressIt() {
- $('input')on.('keydown',function(){
+ $('#input')on.('keydown',function(){
    alert("You have pressed the G key");
  });
 } $("input").keydown(function(event){ 
